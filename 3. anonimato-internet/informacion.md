@@ -4,10 +4,10 @@
 - [***Protonmail***](#protonmail)
 - [***HTTP-HTTPS***](#http-https)
 - [***Herramientas SSLSCAN y TESTSSL.SH***](#herramientas-sslscan-y-testsslsh)
-- [***Configuraciones segura para navegadores***](#configuraciones-segura-para-navegadores)
-  - [\[^4\]:Configuraciones personales](#4configuraciones-personales)
-
-[***HTTP VS HTTPS***](#http-vs-https)
+- [***Configuraciones segura para navegador Firefox***](#configuraciones-segura-para-navegador-firefox)
+- [***Configuraciones segura para navegador Chrome***](#configuraciones-segura-para-navegador-chrome)
+- [***Motor de busqueda DuckDuckGo***](#motor-de-busqueda-duckduckgo)
+- [***Configuraciones segura para navegador Brave***](#configuraciones-segura-para-navegador-brave)
 
 ---
 
@@ -39,11 +39,11 @@
 ---
 > **Puertos de HTTP y HTTPS:** *HTTP y HTTPS utilizan diferentes puertos por defecto. HTTP utiliza el puerto 80, mientras que HTTPS utiliza el puerto 443. Estos son los puertos predeterminados, pero se pueden configurar para usar otros puertos si es necesario.*
 
-![*Img*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img1.png?raw=true)
+![*Img*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS1.png?raw=true)
 
-![*Img dos*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img2.png?raw=true)
+![*Img dos*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS2.png?raw=true)
 
-![*Img tres*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img3.png?raw=true)
+![*Img tres*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS3.png?raw=true)
 
 **`SSL y TLS son protocolos de seguridad utilizados en la comunicación de red.`**
 
@@ -101,26 +101,98 @@ ___
 
 ---
 
-# ***Configuraciones segura para navegadores***
+# ***Configuraciones segura para navegador Firefox***
 
-1. **Firefox** [^1]
-2. **Chrome** [^2]
-3. **Motor de busqueda DuckDuckGo** [^3]
-4. **Brave** [^4]
+<!-- 1. **Firefox** [^1] -->
+<!-- 2. **Chrome** [^2] -->
+<!-- 3. **Motor de busqueda DuckDuckGo** [^3] -->
+<!-- 4. **Brave** [^4] -->
 
-[^1]:Configuraciones del navegador Firefox
+<!-- [^1]:Configuraciones del navegador Firefox -->
 
-[^2]:Configuraciones del navegador Chrome
+![configuracion Firefox img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox1.png?raw=true)
 
-[^3]:DuckDuckGo
+![configuracion Firefox img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox2.png?raw=true)
 
-[^4]:Configuraciones personales
+![configuracion Firefox img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox3.png?raw=true)
+
+![configuracion Firefox img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox4.png?raw=true)
+
+![configuracion Firefox img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox5.png?raw=true)
+
+![configuracion Firefox img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox6.png?raw=true)
+
+![configuracion Firefox img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox7.png?raw=true)
+
+![configuracion Firefox img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox8.png?raw=true)
+
 ---
+# ***Configuraciones segura para navegador Chrome***
+<!-- [^2]:Configuraciones del navegador Chrome -->
+
+![configuracion chrome img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome1.png?raw=true)
+
+![configuracion chrome img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome2.png?raw=true)
+
+![configuracion chrome img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome3.png?raw=true)
+
+![configuracion chrome img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome4.png?raw=true)
+
+![configuracion chrome img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome5.png?raw=true)
+
+![configuracion chrome img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome6.png?raw=true)
+
+![configuracion chrome img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome7.png?raw=true)
+
+![configuracion chrome img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome8.png?raw=true)
+
+![configuracion chrome img #9](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome9.png?raw=true)
+
+![configuracion chrome img #10](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome10.png?raw=true)
+
+![configuracion chrome img #11](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome11.png?raw=true)
+
+![configuracion chrome img #12](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome12.png?raw=true)
+
+---
+<!-- [^3]:Motor de busqueda DuckDuckGo -->
+
+# ***Motor de busqueda DuckDuckGo***
+
+> *DuckDuckGo es un motor de búsqueda en línea que se centra en la privacidad del usuario y en no rastrear la información personal durante las búsquedas. Fue lanzado en 2008 con el objetivo de proporcionar una alternativa a los motores de búsqueda más convencionales que a menudo recopilan datos sobre los usuarios para personalizar los resultados y la publicidad.
+
+**Las principales características de DuckDuckGo incluyen:**
+
+1. **Privacidad:**
+   > *DuckDuckGo se compromete a no recopilar información personal del usuario. No almacena direcciones IP, no realiza un seguimiento de las búsquedas del usuario y no utiliza cookies persistentes.*
+
+2. **Resultados imparciales:**
+   > *A diferencia de algunos motores de búsqueda que personalizan los resultados según el historial de búsqueda del usuario, DuckDuckGo proporciona resultados objetivos y no sesgados para todos los usuarios.*
+
+3. **Búsquedas encriptadas:**
+   > *DuckDuckGo utiliza conexiones encriptadas (HTTPS) para proteger la privacidad del usuario durante las búsquedas.*
+
+4. **Sin burbuja de filtro:**
+   > *DuckDuckGo intenta evitar la "burbuja de filtro", que es la personalización extrema de los resultados basada en la información personal del usuario, permitiendo así una experiencia de búsqueda más diversa.*
+
+*En navegadores como brave el motor de busqueda <kbd>**DuckDuckgo**</kbd> esta instalado solo hay que configurarlo como motor de busqueda predeterminado*
+
+*En navegadores como Firefox o Chrome tenemos que instalar una extension*
+
+1. [<kbd>**DuckDuckgo Firefox extension**</kbd>](https://addons.mozilla.org/es/firefox/addon/duckduckgo-for-firefox/ "https://addons.mozilla.org/es/firefox/addon/duckduckgo-for-firefox/")
+2. [<kbd>**DuckDuckgo Chrome extension**</kbd>](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg "https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg")
+
+---
+# ***Configuraciones segura para navegador Brave***
+<!-- [^4]:Configuraciones del navegador Brave -->
 
 >*Extensiones para el navegador*
 
 1. [Cookie editor Mozilla](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/ "https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/")
 2. [Cookie editor Brave](https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg "https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg")
+
+> [!TIP]
+> ***Las cookies pueden utilizarse para iniciar sesión en una página web. Esto se puede lograr de varias formas, una de ellas es mediante el uso de una extensión que importe y exporte cookies en formato JSON, permitiendo que la página acceda a los datos necesarios para el inicio de sesión.***
 
 <!-- criptomineros es un malware que se instala en tu navegador y que consume recurso y lo utiliza para minar criptomoneas haciendo que el ordenador este lente -->
 
