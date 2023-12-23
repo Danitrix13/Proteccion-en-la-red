@@ -1,45 +1,48 @@
-***Anonimato en la red***
+**_Anonimato en la red_**
 
-- [***Email-Temporales***](#email-temporales)
-- [***Protonmail***](#protonmail)
-- [***HTTP-HTTPS***](#http-https)
-- [***Herramientas SSLSCAN y TESTSSL.SH***](#herramientas-sslscan-y-testsslsh)
-- [***Configuraciones segura para navegador Firefox***](#configuraciones-segura-para-navegador-firefox)
-- [***Configuraciones segura para navegador Chrome***](#configuraciones-segura-para-navegador-chrome)
-- [***Motor de busqueda DuckDuckGo***](#motor-de-busqueda-duckduckgo)
-- [***Configuraciones segura para navegador Brave***](#configuraciones-segura-para-navegador-brave)
-- [***IP-Publica***](#ip-publica)
-- [***IP-Privada***](#ip-privada)
+- [**_Email-Temporales_**](#email-temporales)
+- [**_Protonmail_**](#protonmail)
+- [**_HTTP-HTTPS_**](#http-https)
+- [**_Herramientas SSLSCAN y TESTSSL.SH_**](#herramientas-sslscan-y-testsslsh)
+- [**_Configuraciones segura para navegador Firefox_**](#configuraciones-segura-para-navegador-firefox)
+- [**_Configuraciones segura para navegador Chrome_**](#configuraciones-segura-para-navegador-chrome)
+- [**_Motor de busqueda DuckDuckGo_**](#motor-de-busqueda-duckduckgo)
+- [**_Configuraciones segura para navegador Brave_**](#configuraciones-segura-para-navegador-brave)
+- [**_IP-Publica_**](#ip-publica)
+- [**_IP-Privada_**](#ip-privada)
 
 ---
 
-# ***Email-Temporales***
+# **_Email-Temporales_**
 
-> *Los correos temporales, también conocidos como correos desechables o temporales, son direcciones de correo electrónico que se crean para un solo uso y luego se eliminan automáticamente. Se utilizan a menudo para registrarse en sitios web o servicios que no requieren una dirección de correo electrónico permanente, o para proteger la privacidad al evitar que los correos electrónicos personales sean rastreados o recogidos por terceros.*
+> _Los correos temporales, también conocidos como correos desechables o temporales, son direcciones de correo electrónico que se crean para un solo uso y luego se eliminan automáticamente. Se utilizan a menudo para registrarse en sitios web o servicios que no requieren una dirección de correo electrónico permanente, o para proteger la privacidad al evitar que los correos electrónicos personales sean rastreados o recogidos por terceros._
 
 **Paginas web que brindan este servicio**
 
-- [*temp-mail.io*](https://temp-mail.io/en "https://temp-mail.io/en")
-- [*temp-mail.org*](https://temp-mail.org/en/ "https://temp-mail.org/en/")
+- [_temp-mail.io_](https://temp-mail.io/en "https://temp-mail.io/en")
+- [_temp-mail.org_](https://temp-mail.org/en/ "https://temp-mail.org/en/")
 
-# ***Protonmail***
+# **_Protonmail_**
 
-> *ProtonMail es un servicio de correo electrónico seguro con sede en Suiza. Fue fundado en 2013 por un grupo de científicos del CERN, entre ellos Andy Yen, Jason Stockman y Wei Sun. ProtonMail se basa en el cifrado de extremo a extremo, lo que significa que los mensajes se cifran antes de salir del dispositivo del remitente y solo se pueden descifrar en el dispositivo del destinatario. Esto hace que ProtonMail sea una opción muy segura para enviar y recibir correos electrónicos confidenciales.*
+> _ProtonMail es un servicio de correo electrónico seguro con sede en Suiza. Fue fundado en 2013 por un grupo de científicos del CERN, entre ellos Andy Yen, Jason Stockman y Wei Sun. ProtonMail se basa en el cifrado de extremo a extremo, lo que significa que los mensajes se cifran antes de salir del dispositivo del remitente y solo se pueden descifrar en el dispositivo del destinatario. Esto hace que ProtonMail sea una opción muy segura para enviar y recibir correos electrónicos confidenciales._
 
-- [*Web de protonmail*](https://proton.me/mail "https://proton.me/mail")
+- [_Web de protonmail_](https://proton.me/mail "https://proton.me/mail")
 
-> [!NOTE]
-> *Tambien tiene aplicaciones tanto para desktop como para moviles*
+> [!NOTE] > _Tambien tiene aplicaciones tanto para desktop como para moviles_
 
 ---
 
-# ***HTTP-HTTPS***
+# **_HTTP-HTTPS_**
 
-> **HTTP:** *significa Protocolo de Transferencia de Hipertexto (Hypertext Transfer Protocol en inglés). Es el protocolo de comunicación que permite las transferencias de información en la web. HTTP define cómo se transmiten los mensajes a través de la web y qué acciones pueden tomar los navegadores web y los servidores web al hacer una solicitud o dar una respuesta. Por ejemplo, cuando escribes una URL en tu navegador, en realidad estás enviando una solicitud HTTP al servidor donde se encuentra la página web. El servidor responde con el contenido de la página. Es importante notar que HTTP no es seguro, ya que los datos se transmiten en texto plano, lo que significa que si alguien intercepta la comunicación, puede leer la información. Para solucionar este problema, se utiliza HTTPS (HTTP Seguro), que cifra los datos transmitidos.*
+> **HTTP:** _significa Protocolo de Transferencia de Hipertexto (Hypertext Transfer Protocol en inglés). Es el protocolo de comunicación que permite las transferencias de información en la web. HTTP define cómo se transmiten los mensajes a través de la web y qué acciones pueden tomar los navegadores web y los servidores web al hacer una solicitud o dar una respuesta. Por ejemplo, cuando escribes una URL en tu navegador, en realidad estás enviando una solicitud HTTP al servidor donde se encuentra la página web. El servidor responde con el contenido de la página. Es importante notar que HTTP no es seguro, ya que los datos se transmiten en texto plano, lo que significa que si alguien intercepta la comunicación, puede leer la información. Para solucionar este problema, se utiliza HTTPS (HTTP Seguro), que cifra los datos transmitidos._
+
 ---
-> **HTTPS:** *significa Protocolo seguro de transferencia de hipertexto (Hypertext Transfer Protocol Secure en inglés). Es la versión segura de HTTP. HTTPS utiliza un protocolo de seguridad llamado SSL/TLS para cifrar la información que se envía entre el cliente (por ejemplo, tu navegador) y el servidor. Esto significa que incluso si alguien intercepta los datos que se están transmitiendo, no podrá leerlos porque están cifrados. El uso de HTTPS es especialmente importante cuando se transmiten datos sensibles, como contraseñas o información de tarjetas de crédito.*
+
+> **HTTPS:** _significa Protocolo seguro de transferencia de hipertexto (Hypertext Transfer Protocol Secure en inglés). Es la versión segura de HTTP. HTTPS utiliza un protocolo de seguridad llamado SSL/TLS para cifrar la información que se envía entre el cliente (por ejemplo, tu navegador) y el servidor. Esto significa que incluso si alguien intercepta los datos que se están transmitiendo, no podrá leerlos porque están cifrados. El uso de HTTPS es especialmente importante cuando se transmiten datos sensibles, como contraseñas o información de tarjetas de crédito._
+
 ---
-> **Puertos de HTTP y HTTPS:** *HTTP y HTTPS utilizan diferentes puertos por defecto. HTTP utiliza el puerto 80, mientras que HTTPS utiliza el puerto 443. Estos son los puertos predeterminados, pero se pueden configurar para usar otros puertos si es necesario.*
+
+> **Puertos de HTTP y HTTPS:** _HTTP y HTTPS utilizan diferentes puertos por defecto. HTTP utiliza el puerto 80, mientras que HTTPS utiliza el puerto 443. Estos son los puertos predeterminados, pero se pueden configurar para usar otros puertos si es necesario._
 
 ![*Img*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-HTTP-VS-HTTPS/HTTP%20VS%20HTTPS1.png?raw=true)
 
@@ -49,61 +52,63 @@
 
 **`SSL y TLS son protocolos de seguridad utilizados en la comunicación de red.`**
 
-> **SSL:** *significa Secure Sockets Layer. Es un protocolo de seguridad que se utiliza para establecer enlaces cifrados entre un servidor web y un navegador. Este enlace asegura que todos los datos transmitidos entre el servidor web y el navegador permanezcan privados y seguros. SSL es ampliamente utilizado para proteger las transacciones en línea y para asegurar la transmisión de información confidencial, como los detalles de la tarjeta de crédito durante las transacciones en línea.*
-___
-> **TLS:** *significa Transport Layer Security. Es un protocolo que proporciona privacidad y seguridad de datos entre dos aplicaciones que se comunican a través de una red. TLS es el sucesor de Secure Sockets Layer (SSL). Se utiliza comúnmente para proteger las comunicaciones web (HTTP/HTTPS), el correo electrónico (SMTP), la mensajería instantánea (IM) y algunas VPNs.*
+> **SSL:** _significa Secure Sockets Layer. Es un protocolo de seguridad que se utiliza para establecer enlaces cifrados entre un servidor web y un navegador. Este enlace asegura que todos los datos transmitidos entre el servidor web y el navegador permanezcan privados y seguros. SSL es ampliamente utilizado para proteger las transacciones en línea y para asegurar la transmisión de información confidencial, como los detalles de la tarjeta de crédito durante las transacciones en línea._
 
-# ***Herramientas SSLSCAN y TESTSSL.SH***
+---
 
-> *SSLScan es una herramienta de código abierto diseñada para analizar la configuración de seguridad de servidores que utilizan el protocolo SSL/TLS. Esta herramienta escanea un servidor en busca de configuraciones débiles o vulnerabilidades relacionadas con SSL/TLS. Proporciona información detallada sobre la suite de cifrado utilizada, versiones de protocolos SSL/TLS admitidas, configuraciones de cifrado débiles y posibles amenazas a la seguridad. SSLScan se utiliza comúnmente para evaluar la seguridad de servidores web y asegurarse de que estén configurados de manera segura para proteger la comunicación en línea. Al analizar la configuración SSL/TLS de un servidor, los administradores pueden identificar y corregir posibles vulnerabilidades antes de que sean explotadas por posibles atacantes.*
+> **TLS:** _significa Transport Layer Security. Es un protocolo que proporciona privacidad y seguridad de datos entre dos aplicaciones que se comunican a través de una red. TLS es el sucesor de Secure Sockets Layer (SSL). Se utiliza comúnmente para proteger las comunicaciones web (HTTP/HTTPS), el correo electrónico (SMTP), la mensajería instantánea (IM) y algunas VPNs._
+
+# **_Herramientas SSLSCAN y TESTSSL.SH_**
+
+> _SSLScan es una herramienta de código abierto diseñada para analizar la configuración de seguridad de servidores que utilizan el protocolo SSL/TLS. Esta herramienta escanea un servidor en busca de configuraciones débiles o vulnerabilidades relacionadas con SSL/TLS. Proporciona información detallada sobre la suite de cifrado utilizada, versiones de protocolos SSL/TLS admitidas, configuraciones de cifrado débiles y posibles amenazas a la seguridad. SSLScan se utiliza comúnmente para evaluar la seguridad de servidores web y asegurarse de que estén configurados de manera segura para proteger la comunicación en línea. Al analizar la configuración SSL/TLS de un servidor, los administradores pueden identificar y corregir posibles vulnerabilidades antes de que sean explotadas por posibles atacantes._
 
 **Para instalar Sslscan en Ubuntu**
 
 1. Abrimos la terminal con <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>t</kbd>
 
-2. *Actualizamos los paquetes*
+2. _Actualizamos los paquetes_
 
-    ```bash
-    sudo apt-get update
-    ```
+   ```bash
+   sudo apt-get update
+   ```
 
-3. *Comando para instalar sslscan*
+3. _Comando para instalar sslscan_
 
-    ```bash
-    sudo apt-get install sslscan
-    ```
+   ```bash
+   sudo apt-get install sslscan
+   ```
 
-4. *Comprobamos la version*
+4. _Comprobamos la version_
 
-    ```bash
-    sslscan --version
-    ```
+   ```bash
+   sslscan --version
+   ```
 
 5. Analizamos el sitio web < Sitio Web > esto remplazar por la url de la web
 
-    ```bash
-    sslscan <Sitio Web>
-    ```
+   ```bash
+   sslscan <Sitio Web>
+   ```
 
-*Al analizar la pagina es recomendable que el `TLS` tengo solo habilitada la version 1.2 y 1.3 **Enabled** y desactivada la version 1.1 y 1.0 **Disabled*** simplemente es mas seguro.
+\*Al analizar la pagina es recomendable que el `TLS` tengo solo habilitada la version 1.2 y 1.3 **Enabled** y desactivada la version 1.1 y 1.0 **Disabled\*** simplemente es mas seguro.
 
 **Segunda Herrmienta para el analizis de paginas web para usar este herramienta tendremos que descargarnos el repositorio de github**
 
 1. ```bash
-    git clone git@github.com:drwetter/testssl.sh.git
-    ```
+   git clone git@github.com:drwetter/testssl.sh.git
+   ```
 
 2. ```bash
-    cd testssl.sh/
-    ```
+   cd testssl.sh/
+   ```
 
 3. ```bash
-    ./testssl.sh <Sitio Web>
-    ```
+   ./testssl.sh <Sitio Web>
+   ```
 
 ---
 
-# ***Configuraciones segura para navegador Firefox***
+# **_Configuraciones segura para navegador Firefox_**
 
 <!-- 1. **Firefox** [^1] -->
 <!-- 2. **Chrome** [^2] -->
@@ -129,7 +134,9 @@ ___
 ![configuracion Firefox img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-firefox/configuracion%20firefox8.png?raw=true)
 
 ---
-# ***Configuraciones segura para navegador Chrome***
+
+# **_Configuraciones segura para navegador Chrome_**
+
 <!-- [^2]:Configuraciones del navegador Chrome -->
 
 ![configuracion chrome img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome1.png?raw=true)
@@ -157,101 +164,116 @@ ___
 ![configuracion chrome img #12](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome12.png?raw=true)
 
 ---
+
 <!-- [^3]:Motor de busqueda DuckDuckGo -->
 
-# ***Motor de busqueda DuckDuckGo***
+# **_Motor de busqueda DuckDuckGo_**
 
-> *DuckDuckGo es un motor de búsqueda en línea que se centra en la privacidad del usuario y en no rastrear la información personal durante las búsquedas. Fue lanzado en 2008 con el objetivo de proporcionar una alternativa a los motores de búsqueda más convencionales que a menudo recopilan datos sobre los usuarios para personalizar los resultados y la publicidad.
+> \*DuckDuckGo es un motor de búsqueda en línea que se centra en la privacidad del usuario y en no rastrear la información personal durante las búsquedas. Fue lanzado en 2008 con el objetivo de proporcionar una alternativa a los motores de búsqueda más convencionales que a menudo recopilan datos sobre los usuarios para personalizar los resultados y la publicidad.
 
 **Las principales características de DuckDuckGo incluyen:**
 
 1. **Privacidad:**
-   > *DuckDuckGo se compromete a no recopilar información personal del usuario. No almacena direcciones IP, no realiza un seguimiento de las búsquedas del usuario y no utiliza cookies persistentes.*
+
+   > _DuckDuckGo se compromete a no recopilar información personal del usuario. No almacena direcciones IP, no realiza un seguimiento de las búsquedas del usuario y no utiliza cookies persistentes._
 
 2. **Resultados imparciales:**
-   > *A diferencia de algunos motores de búsqueda que personalizan los resultados según el historial de búsqueda del usuario, DuckDuckGo proporciona resultados objetivos y no sesgados para todos los usuarios.*
+
+   > _A diferencia de algunos motores de búsqueda que personalizan los resultados según el historial de búsqueda del usuario, DuckDuckGo proporciona resultados objetivos y no sesgados para todos los usuarios._
 
 3. **Búsquedas encriptadas:**
-   > *DuckDuckGo utiliza conexiones encriptadas (HTTPS) para proteger la privacidad del usuario durante las búsquedas.*
+
+   > _DuckDuckGo utiliza conexiones encriptadas (HTTPS) para proteger la privacidad del usuario durante las búsquedas._
 
 4. **Sin burbuja de filtro:**
-   > *DuckDuckGo intenta evitar la "burbuja de filtro", que es la personalización extrema de los resultados basada en la información personal del usuario, permitiendo así una experiencia de búsqueda más diversa.*
+   > _DuckDuckGo intenta evitar la "burbuja de filtro", que es la personalización extrema de los resultados basada en la información personal del usuario, permitiendo así una experiencia de búsqueda más diversa._
 
-*En navegadores como brave el motor de busqueda <kbd>**DuckDuckgo**</kbd> esta instalado solo hay que configurarlo como motor de busqueda predeterminado*
+_En navegadores como brave el motor de busqueda <kbd>**DuckDuckgo**</kbd> esta instalado solo hay que configurarlo como motor de busqueda predeterminado_
 
-*En navegadores como Firefox o Chrome tenemos que instalar una extension*
+_En navegadores como Firefox o Chrome tenemos que instalar una extension_
 
 1. [<kbd>**DuckDuckgo Firefox extension**</kbd>](https://addons.mozilla.org/es/firefox/addon/duckduckgo-for-firefox/ "https://addons.mozilla.org/es/firefox/addon/duckduckgo-for-firefox/")
 2. [<kbd>**DuckDuckgo Chrome extension**</kbd>](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg "https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg")
 
 ---
-# ***Configuraciones segura para navegador Brave***
+
+# **_Configuraciones segura para navegador Brave_**
+
 <!-- [^4]:Configuraciones del navegador Brave -->
 
->*Extensiones para el navegador*
+> _Extensiones para el navegador_
 
 1. [Cookie editor Mozilla](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/ "https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/")
 2. [Cookie editor Brave](https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg "https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg")
 
-> [!TIP]
-> ***Las cookies pueden utilizarse para iniciar sesión en una página web. Esto se puede lograr de varias formas, una de ellas es mediante el uso de una extensión que importe y exporte cookies en formato JSON, permitiendo que la página acceda a los datos necesarios para el inicio de sesión.***
+> [!TIP] > **_Las cookies pueden utilizarse para iniciar sesión en una página web. Esto se puede lograr de varias formas, una de ellas es mediante el uso de una extensión que importe y exporte cookies en formato JSON, permitiendo que la página acceda a los datos necesarios para el inicio de sesión._**
 
 ---
 
-# ***IP-Publica***
-> **Dirección IP Pública:** *La dirección IP pública es la dirección única asignada a tu red desde el proveedor de servicios de Internet (ISP). Es la dirección que se utiliza para identificar tu red en Internet. Todas las dispositivos conectados a Internet desde tu red doméstica compartirán la misma dirección IP pública. Esta dirección es necesaria para que los dispositivos se comuniquen con otros dispositivos en Internet. Puedes obtener tu dirección IP pública utilizando servicios en línea o comandos específicos en la terminal.*
+# **_IP-Publica_**
 
-1. *Puedes utilizar servicios en línea para obtener tu IP pública. Uno de los servicios comunes es curl para obtener la IP desde un sitio web comando en **Ubuntu es:***
+> **Dirección IP Pública:** _La dirección IP pública es la dirección única asignada a tu red desde el proveedor de servicios de Internet (ISP). Es la dirección que se utiliza para identificar tu red en Internet. Todas las dispositivos conectados a Internet desde tu red doméstica compartirán la misma dirección IP pública. Esta dirección es necesaria para que los dispositivos se comuniquen con otros dispositivos en Internet. Puedes obtener tu dirección IP pública utilizando servicios en línea o comandos específicos en la terminal._
+
+1. \*Puedes utilizar servicios en línea para obtener tu IP pública. Uno de los servicios comunes es curl para obtener la IP desde un sitio web comando en **Ubuntu es:\***
+
    1. ```bash
-        curl ifconfig.me
-        ```
-    2. ```bash
-        curl ifconfig.me/ip
-        ```
-    3. ```bash
-        dig +short myip.opendns.com @resolver1.opendns.com
-        ```
-2. *Otra opcion seria visitar cualquiera de esta paginas ya que nos brindara nuestra ip publica*
+       curl ifconfig.me
+      ```
 
-    1. [*IP publica pagina #1*](https://ip-lookup.live/ "https://ip-lookup.live/")
-    2. [*IP publica pagina #2*](https://www.cual-es-mi-ip.net/ "https://www.cual-es-mi-ip.net/")
+   2. ```bash
+       curl ifconfig.me/ip
+      ```
+
+   3. ```bash
+       dig +short myip.opendns.com @resolver1.opendns.com
+      ```
+
+2. _Otra opcion seria visitar cualquiera de esta paginas ya que nos brindara nuestra ip publica_
+
+   1. [_IP publica pagina #1_](https://ip-lookup.live/ "https://ip-lookup.live/")
+   2. [_IP publica pagina #2_](https://www.cual-es-mi-ip.net/ "https://www.cual-es-mi-ip.net/")
+
 3. **En windows abrimos el cmd con <kbd>Windows</kbd>+<kbd>r</kbd> escribimos cmd**
-    
-    1. ```cmd
-        nslookup myip.opendns.com resolver1.opendns.com
-        ``` 
+
+   1. ```cmd
+      nslookup myip.opendns.com resolver1.opendns.com
+      ```
 
 ---
 
-# ***IP-Privada***
+# **_IP-Privada_**
 
-> **Dirección IP Privada:** *La dirección IP privada es la dirección asignada a un dispositivo dentro de una red local (como tu red doméstica o de oficina). Está diseñada para ser única dentro de esa red local. Puedes tener múltiples dispositivos con la misma dirección IP privada en diferentes redes locales, ya que no son únicas en todo Internet. Los routers en la red local asignan direcciones IP privadas a los dispositivos conectados. Las direcciones IP privadas están reservadas y definidas en los rangos específicos, como 192.168.x.x, 10.x.x.x, etc.*
+> **Dirección IP Privada:** _La dirección IP privada es la dirección asignada a un dispositivo dentro de una red local (como tu red doméstica o de oficina). Está diseñada para ser única dentro de esa red local. Puedes tener múltiples dispositivos con la misma dirección IP privada en diferentes redes locales, ya que no son únicas en todo Internet. Los routers en la red local asignan direcciones IP privadas a los dispositivos conectados. Las direcciones IP privadas están reservadas y definidas en los rangos específicos, como 192.168.x.x, 10.x.x.x, etc._
 
-1. *Comandos para obtener las ip privadas de nuestra red en ubuntu cualquiera de las dos podemos usar*
-    1. ```bash
-        ip a
-        ```
-    
-    2. ```bash
-        ip addr show
-        ```
+1. _Comandos para obtener las ip privadas de nuestra red en ubuntu cualquiera de las dos podemos usar_
 
-2. *Comando para obtener ip privada de una interfaz especifica en ubuntu remplaza **enp0s3** por la interfaz que quieres monitorear*
+   1. ```bash
+      ip a
+      ```
+
+   2. ```bash
+      ip addr show
+      ```
+
+2. _Comando para obtener ip privada de una interfaz especifica en ubuntu remplaza **enp0s3** por la interfaz que quieres monitorear_
+
    ```bash
    ip addr show <enp0s3>
    ```
+
 3. **En windows abrimos el cmd con <kbd>Windows</kbd>+<kbd>r</kbd> escribimos cmd**
-    
-    1. ```cmd
-        ipconfig
-        ```
+
+   1. ```cmd
+      ipconfig
+      ```
+
 **Estructuras de las direcciones ip**
 
-|**Datos**| **IPV4** |**IPV6**|
-|:-------:|:------:|:---:|
-|**Bits**| *Utiliza direcciones de 32 bits* | utiliza direcciones de 128 bits|
-|**Rango de números**|*Va desde 0.0.0.0 hasta 255.255.255.255.*| *Dada la longitud de 128 bits, el rango es enormemente grande, proporcionando un número prácticamente ilimitado de direcciones únicas*|
-|**Significado de cada sección**| *Cada sección, separada por puntos, representa un octeto (8 bits) de la dirección. Por ejemplo, en la dirección "192.168.1.1", 192 es el primer octeto, 168 es el segundo, 1 es el tercer y 1 es el cuarto.*|*En lugar de puntos, IPv6 utiliza dos puntos para separar las secciones. Cada sección de 16 bits se representa en notación hexadecimal. Por ejemplo, una dirección IPv6 podría verse así: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.*|
+|            **Datos**            |                                                                                                   **IPV4**                                                                                                   |                                                                                                              **IPV6**                                                                                                               |
+| :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|            **Bits**             |                                                                                       _Utiliza direcciones de 32 bits_                                                                                       |                                                                                                   utiliza direcciones de 128 bits                                                                                                   |
+|      **Rango de números**       |                                                                                  _Va desde 0.0.0.0 hasta 255.255.255.255._                                                                                   |                                               _Dada la longitud de 128 bits, el rango es enormemente grande, proporcionando un número prácticamente ilimitado de direcciones únicas_                                                |
+| **Significado de cada sección** | _Cada sección, separada por puntos, representa un octeto (8 bits) de la dirección. Por ejemplo, en la dirección "192.168.1.1", 192 es el primer octeto, 168 es el segundo, 1 es el tercer y 1 es el cuarto._ | _En lugar de puntos, IPv6 utiliza dos puntos para separar las secciones. Cada sección de 16 bits se representa en notación hexadecimal. Por ejemplo, una dirección IPv6 podría verse así: 2001:0db8:85a3:0000:0000:8a2e:0370:7334._ |
 
 <!-- Puedes ajustar la alineación de las celdas utilizando dos puntos (:) dentro de las barras verticales. Por ejemplo, |:--|:--:|--:| alinea las celdas a la izquierda, al centro y a la derecha respectivamente. -->
 
