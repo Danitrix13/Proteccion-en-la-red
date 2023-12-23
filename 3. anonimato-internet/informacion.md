@@ -8,6 +8,8 @@
 - [***Configuraciones segura para navegador Chrome***](#configuraciones-segura-para-navegador-chrome)
 - [***Motor de busqueda DuckDuckGo***](#motor-de-busqueda-duckduckgo)
 - [***Configuraciones segura para navegador Brave***](#configuraciones-segura-para-navegador-brave)
+- [***IP-Publica***](#ip-publica)
+- [***IP-Privada***](#ip-privada)
 
 ---
 
@@ -193,6 +195,65 @@ ___
 
 > [!TIP]
 > ***Las cookies pueden utilizarse para iniciar sesión en una página web. Esto se puede lograr de varias formas, una de ellas es mediante el uso de una extensión que importe y exporte cookies en formato JSON, permitiendo que la página acceda a los datos necesarios para el inicio de sesión.***
+
+---
+
+# ***IP-Publica***
+> **Dirección IP Pública:** *La dirección IP pública es la dirección única asignada a tu red desde el proveedor de servicios de Internet (ISP). Es la dirección que se utiliza para identificar tu red en Internet. Todas las dispositivos conectados a Internet desde tu red doméstica compartirán la misma dirección IP pública. Esta dirección es necesaria para que los dispositivos se comuniquen con otros dispositivos en Internet. Puedes obtener tu dirección IP pública utilizando servicios en línea o comandos específicos en la terminal.*
+
+1. *Puedes utilizar servicios en línea para obtener tu IP pública. Uno de los servicios comunes es curl para obtener la IP desde un sitio web comando en **Ubuntu es:***
+   1. ```bash
+        curl ifconfig.me
+        ```
+    2. ```bash
+        curl ifconfig.me/ip
+        ```
+    3. ```bash
+        dig +short myip.opendns.com @resolver1.opendns.com
+        ```
+2. *Otra opcion seria visitar cualquiera de esta paginas ya que nos brindara nuestra ip publica*
+
+    1. [*IP publica pagina #1*](https://ip-lookup.live/ "https://ip-lookup.live/")
+    2. [*IP publica pagina #2*](https://www.cual-es-mi-ip.net/ "https://www.cual-es-mi-ip.net/")
+3. **En windows abrimos el cmd con <kbd>Windows</kbd>+<kbd>r</kbd> escribimos cmd**
+    
+    1. ```cmd
+        nslookup myip.opendns.com resolver1.opendns.com
+        ``` 
+
+---
+
+# ***IP-Privada***
+
+> **Dirección IP Privada:** *La dirección IP privada es la dirección asignada a un dispositivo dentro de una red local (como tu red doméstica o de oficina). Está diseñada para ser única dentro de esa red local. Puedes tener múltiples dispositivos con la misma dirección IP privada en diferentes redes locales, ya que no son únicas en todo Internet. Los routers en la red local asignan direcciones IP privadas a los dispositivos conectados. Las direcciones IP privadas están reservadas y definidas en los rangos específicos, como 192.168.x.x, 10.x.x.x, etc.*
+
+1. *Comandos para obtener las ip privadas de nuestra red en ubuntu cualquiera de las dos podemos usar*
+    1. ```bash
+        ip a
+        ```
+    
+    2. ```bash
+        ip addr show
+        ```
+
+2. *Comando para obtener ip privada de una interfaz especifica en ubuntu remplaza **enp0s3** por la interfaz que quieres monitorear*
+   ```bash
+   ip addr show <enp0s3>
+   ```
+3. **En windows abrimos el cmd con <kbd>Windows</kbd>+<kbd>r</kbd> escribimos cmd**
+    
+    1. ```cmd
+        ipconfig
+        ```
+**Estructuras de las direcciones ip**
+
+|**Datos**| **IPV4** |**IPV6**|
+|:-------:|:------:|:---:|
+|**Bits**| *Utiliza direcciones de 32 bits* | utiliza direcciones de 128 bits|
+|**Rango de números**|*Va desde 0.0.0.0 hasta 255.255.255.255.*| *Dada la longitud de 128 bits, el rango es enormemente grande, proporcionando un número prácticamente ilimitado de direcciones únicas*|
+|**Significado de cada sección**| *Cada sección, separada por puntos, representa un octeto (8 bits) de la dirección. Por ejemplo, en la dirección "192.168.1.1", 192 es el primer octeto, 168 es el segundo, 1 es el tercer y 1 es el cuarto.*|*En lugar de puntos, IPv6 utiliza dos puntos para separar las secciones. Cada sección de 16 bits se representa en notación hexadecimal. Por ejemplo, una dirección IPv6 podría verse así: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.*|
+
+<!-- Puedes ajustar la alineación de las celdas utilizando dos puntos (:) dentro de las barras verticales. Por ejemplo, |:--|:--:|--:| alinea las celdas a la izquierda, al centro y a la derecha respectivamente. -->
 
 <!-- criptomineros es un malware que se instala en tu navegador y que consume recurso y lo utiliza para minar criptomoneas haciendo que el ordenador este lente -->
 
