@@ -86,7 +86,8 @@ ___
     sslscan <Sitio Web>
     ```
 
-*Al analizar la pagina es recomendable que el `TLS` tengo solo habilitada la version 1.2 y 1.3 **Enabled** y desactivada la version 1.1 y 1.0 **Disabled*** simplemente es mas seguro.
+> [!IMPORTANT]
+> *Al analizar la pagina es recomendable que el `TLS` tengo solo habilitada la version 1.2 y 1.3 **Enabled** y desactivada la version 1.1 y 1.0 **Disabled*** simplemente es mas seguro.
 
 **Segunda Herrmienta para el analizis de paginas web para usar este herramienta tendremos que descargarnos el repositorio de github**
 
@@ -134,36 +135,36 @@ ___
 # ***Configuraciones segura para navegador Chrome***
 <!-- [^2]:Configuraciones del navegador Chrome -->
 
-![configuracion chrome img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome1.png?raw=true)
+![configuracion Chrome img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome1.png?raw=true)
 
-![configuracion chrome img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome2.png?raw=true)
+![configuracion Chrome img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome2.png?raw=true)
 
-![configuracion chrome img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome3.png?raw=true)
+![configuracion Chrome img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome3.png?raw=true)
 
-![configuracion chrome img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome4.png?raw=true)
+![configuracion Chrome img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome4.png?raw=true)
 
-![configuracion chrome img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome5.png?raw=true)
+![configuracion Chrome img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome5.png?raw=true)
 
-![configuracion chrome img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome6.png?raw=true)
+![configuracion Chrome img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome6.png?raw=true)
 
-![configuracion chrome img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome7.png?raw=true)
+![configuracion Chrome img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome7.png?raw=true)
 
-![configuracion chrome img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome8.png?raw=true)
+![configuracion Chrome img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome8.png?raw=true)
 
-![configuracion chrome img #9](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome9.png?raw=true)
+![configuracion Chrome img #9](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome9.png?raw=true)
 
-![configuracion chrome img #10](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome10.png?raw=true)
+![configuracion Chrome img #10](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome10.png?raw=true)
 
-![configuracion chrome img #11](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome11.png?raw=true)
+![configuracion Chrome img #11](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome11.png?raw=true)
 
-![configuracion chrome img #12](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome12.png?raw=true)
+![configuracion Chrome img #12](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-chrome/Configuracion%20Chrome12.png?raw=true)
 
 ---
 <!-- [^3]:Motor de busqueda DuckDuckGo -->
 
 # ***Motor de busqueda DuckDuckGo***
 
-> *DuckDuckGo es un motor de búsqueda en línea que se centra en la privacidad del usuario y en no rastrear la información personal durante las búsquedas. Fue lanzado en 2008 con el objetivo de proporcionar una alternativa a los motores de búsqueda más convencionales que a menudo recopilan datos sobre los usuarios para personalizar los resultados y la publicidad.
+> *DuckDuckGo es un motor de búsqueda en línea que se centra en la privacidad del usuario y en no rastrear la información personal durante las búsquedas. Fue lanzado en 2008 con el objetivo de proporcionar una alternativa a los motores de búsqueda más convencionales que a menudo recopilan datos sobre los usuarios para personalizar los resultados y la publicidad.*
 
 **Las principales características de DuckDuckGo incluyen:**
 
@@ -192,6 +193,26 @@ ___
 <!-- [^4]:Configuraciones del navegador Brave -->
 
 >*Extensiones para el navegador*
+
+![configuracion Brave img #1](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave1.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave1.png?raw=true")
+
+![configuracion Brave img #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave2.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave2.png?raw=true")
+
+![configuracion Brave img #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave3.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave3.png?raw=true")
+
+![configuracion Brave img #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave4.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave4.png?raw=true")
+
+![configuracion Brave img #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave5.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave5.png?raw=true")
+
+![configuracion Brave img #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave6.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave6.png?raw=true")
+
+![configuracion Brave img #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave7.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave7.png?raw=true")
+
+![configuracion Brave img #8](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave8.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave8.png?raw=true")
+
+![configuracion Brave img #9](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave9.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave9.png?raw=true")
+
+![configuracion Brave img #10](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave10.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/img-brave/Configuracion%20Brave10.png?raw=true")
 
 1. [Cookie editor Mozilla](https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/ "https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/")
 2. [Cookie editor Brave](https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg "https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg")
@@ -370,6 +391,15 @@ Las direcciones IP públicas son asignadas por organizaciones globales (ICANN y 
 ***Host***
 > *Un host es un dispositivo específico, como una computadora o un servidor, que tiene una dirección única en una red. Un host puede ser un nodo, pero no todos los nodos son necesariamente hosts. Por ejemplo, un enrutador puede ser un nodo de la red, pero no es un host en el sentido de ser una estación de trabajo o servidor final.*
 > **En resumen, todos los hosts son nodos, pero no todos los nodos son hosts. En la red Tor, los nodos se refieren específicamente a los puntos de retransmisión que forman parte de la red anónima, mientras que los hosts pueden referirse a dispositivos finales que están conectados a la red.**
+
+***Enrutamiento***
+> *El enrutamiento se refiere al proceso de dirigir el tráfico de datos desde el origen hasta el destino a través de una red de dispositivos intermedios llamados routers. Los routers toman decisiones sobre cómo enviar los datos basándose en la dirección de destino de los paquetes de datos. Este proceso se realiza para optimizar la eficiencia y la entrega de los datos.*
+
+***Cifrado***
+> *El cifrado es el proceso de convertir datos en un formato ilegible (cifrado) utilizando un algoritmo y una clave. La intención es proteger la información de accesos no autorizados. Solo aquellos que posean la clave adecuada podrán descifrar y comprender los datos originales. El cifrado se utiliza para garantizar la confidencialidad de la información.*
+
+***Encriptación***
+> *La encriptación es un término que se utiliza de manera intercambiable con el cifrado en muchos contextos. Ambos términos se refieren al mismo concepto de convertir información en un formato cifrado. En general, cuando se habla de comunicaciones seguras en la web, se hace referencia al uso de protocolos como SSL/TLS, que proporcionan tanto cifrado como autenticación.*
 
 <!-- Puedes ajustar la alineación de las celdas utilizando dos puntos (:) dentro de las barras verticales. Por ejemplo, |:--|:--:|--:| alinea las celdas a la izquierda, al centro y a la derecha respectivamente. -->
 

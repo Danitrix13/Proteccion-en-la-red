@@ -10,6 +10,25 @@
     * ~~*Nombre de familiares*~~
 * ***La contraseña:** Debes tener una contraseña distinta para cada plataforma, web*
 
+> [!NOTE]
+> *Cuando se almacenan contraseñas de manera segura, lo ideal es utilizar funciones de hash en lugar de cifrado o encriptación. Un hash es una función matemática que toma una entrada (o "mensaje") y produce una cadena de caracteres de longitud fija, que generalmente parece completamente aleatoria. Sin embargo, es importante destacar que el proceso de hash es unidireccional, lo que significa que no es posible recuperar la contraseña original a partir del hash.*
+
+**Existen distintos tipos de cifrado entre los mas conocidos**
+
+1. **MD5 (Message Digest Algorithm 5-Algoritmo de resumen de mensajes 5)**
+    > *MD5 produce un hash de 128 bits (32 caracteres hexadecimales). Aunque fue ampliamente utilizado en el pasado, MD5 se considera ahora débil en términos de seguridad debido a vulnerabilidades que permiten colisiones (dos entradas diferentes que producen el mismo hash).*
+2. **SHA-1 (Secure Hash Algorithm 1-Algoritmo hash seguro 1)**
+    > *SHA-1 produce un hash de 160 bits (40 caracteres hexadecimales). Al igual que MD5, SHA-1 se considera obsoleto y vulnerable a ataques de colisión. No se recomienda su uso en aplicaciones de seguridad.*
+3. **SHA-256 (Secure Hash Algorithm 256-bit-Algoritmo hash seguro de 256 bits)**
+    > *SHA-256 es parte de la familia de algoritmos SHA-2 y produce un hash de 256 bits (64 caracteres hexadecimales). Es ampliamente utilizado y considerado seguro para muchos propósitos, incluido el almacenamiento seguro de contraseñas.*
+4. **SHA-3 (Secure Hash Algorithm 3-Algoritmo hash seguro 3)**
+    > *SHA-3 es la última versión de la familia de algoritmos SHA y fue diseñada como un reemplazo de SHA-2. Ofrece una estructura diferente y se basa en el principio de la esponja. SHA-3 tiene variantes con diferentes tamaños de salida, como SHA3-256, SHA3-512, etc.*
+5. **bcrypt**
+    > *bcrypt no es solo una función de hash, sino un algoritmo de derivación de claves diseñado específicamente para almacenar contraseñas de manera segura. Realiza múltiples iteraciones de hash y es resistente a ataques de fuerza bruta.*
+6. **Argon2**
+    > *Argon2 es otro algoritmo diseñado específicamente para el almacenamiento seguro de contraseñas. Es el algoritmo ganador del concurso Password Hashing Competition (PHC) y está diseñado para ser resistente a una amplia variedad de ataques, incluidos los ataques de fuerza bruta y los ataques de tiempo de memoria.*
+
+![**HASH**](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ionos.mx%2Fdigitalguide%2Ffileadmin%2FDigitalGuide%2FSchaubilder%2Fesquema-de-la-funcion-hash.png&f=1&nofb=1&ipt=46f2ea3475dc080d4bbed64f0ff98411cad30729187f1b4cfeae157f6bed7196&ipo=images "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ionos.mx%2Fdigitalguide%2Ffileadmin%2FDigitalGuide%2FSchaubilder%2Fesquema-de-la-funcion-hash.png&f=1&nofb=1&ipt=46f2ea3475dc080d4bbed64f0ff98411cad30729187f1b4cfeae157f6bed7196&ipo=images")
 ---
 
 ### *Existen aplicaciones de escritorio y extension del navegador que nos pueden a ayudar a gestionar nuestras contraseñas*
