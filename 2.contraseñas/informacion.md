@@ -11,7 +11,7 @@
 * ***La contraseña:** Debes tener una contraseña distinta para cada plataforma, web*
 
 > [!NOTE]
-> *Cuando se almacenan contraseñas de manera segura, lo ideal es utilizar funciones de hash en lugar de cifrado o encriptación. Un hash es una función matemática que toma una entrada (o "mensaje") y produce una cadena de caracteres de longitud fija, que generalmente parece completamente aleatoria. Sin embargo, es importante destacar que el proceso de hash es unidireccional, lo que significa que no es posible recuperar la contraseña original a partir del hash.*
+> *Hash es un algoritmo matemático utilizado para mejorar la seguridad de las contraseñas. Este algoritmo toma una cadena como parámetro y devuelve una cadena de longitud fija. Es importante destacar que, independientemente de la longitud de la cadena de entrada, el resultado del hash siempre tendrá la misma longitud. Cuando una cadena está en formato hash, la representación suele ser en secuencia de bits. Sin embargo, por cuestiones de legibilidad, a menudo convertimos esta cadena de bits a su equivalente en formato hexadecimal. Este formato hexadecimal es más amigable para los humanos y facilita la visualización y comparación de los valores hash. Sin embargo, es importante destacar que el proceso de hash es unidireccional, lo que significa que no es posible recuperar la contraseña original a partir del hash.*
 
 **Existen distintos tipos de cifrado entre los mas conocidos**
 
@@ -71,3 +71,5 @@
 
 > [!IMPORTANT]
 > Es una extension del navegador
+
+[LastPass](https://my.lastpass.com/create_account.php?fromloginpage=1 "https://my.lastpass.com/create_account.php?fromloginpage=1")

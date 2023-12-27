@@ -1,5 +1,7 @@
 ***Anonimato en la red***
 
+### ***Temario***
+
 - [***Email-Temporales***](#email-temporales)
 - [***Protonmail***](#protonmail)
 - [***HTTP-HTTPS***](#http-https)
@@ -11,6 +13,8 @@
 - [***IP-Publica***](#ip-publica)
 - [***IP-Privada***](#ip-privada)
 - [***The Onion Router (TOR)***](#the-onion-router-tor)
+- [***Instalacion de TOR Browser***](#instalacion-de-tor-browser)
+- [***Red Privada Virtual por sus siglas en inglés VPN - (Virtual Private Network)***](#red-privada-virtual-por-sus-siglas-en-inglés-vpn---virtual-private-network)
 
 ---
 
@@ -287,13 +291,15 @@ ___
 |**Significado de cada sección**| *Cada sección, separada por puntos, representa un octeto (8 bits) de la dirección. Por ejemplo, en la dirección "192.168.1.1", 192 es el primer octeto, 168 es el segundo, 1 es el tercer y 1 es el cuarto.*|*En lugar de puntos, IPv6 utiliza dos puntos para separar las secciones. Cada sección de 16 bits se representa en notación hexadecimal. Por ejemplo, una dirección IPv6 podría verse así: 2001:0db8:85a3:0000:0000:8a2e:0370:7334.*|
 
 **Datos sobre las direcciones IP**
-1. Siglas IP. Internet Protocol (Protocolo de Internet)
 
-Las direcciones IP (Protocolo de Internet) son asignadas y gestionadas por organizaciones específicas a nivel mundial. 
+1. *Siglas IP. Internet Protocol (Protocolo de Internet)*
 
-Las direcciones IP públicas son asignadas por organizaciones globales (ICANN y RIR), mientras que las direcciones IP privadas son gestionadas por IANA y se utilizan internamente en redes privadas. Las empresas, proveedores de servicios de Internet (ISP) y otras organizaciones obtienen bloques de direcciones IP públicas a través de los RIR.
+2. *Las direcciones IP (Protocolo de Internet) son asignadas y gestionadas por organizaciones específicas a nivel mundial.*
+
+3. *Las direcciones IP públicas son asignadas por organizaciones globales (ICANN y RIR), mientras que las direcciones IP privadas son gestionadas por IANA y se utilizan internamente en redes privadas. Las empresas, proveedores de servicios de Internet (ISP) y otras organizaciones obtienen bloques de direcciones IP públicas a través de los RIR.*
 
 ---
+
 # ***The Onion Router (TOR)***
 
 > **TOR** *(El Enrutador Cebolla, en español), es un sistema de red anónima diseñado para mejorar la privacidad y seguridad en línea al enrutar el tráfico a través de una serie de servidores distribuidos en todo el mundo. El nombre "cebolla" se refiere a la estructura de capas del sistema, ya que el tráfico se cifra y reenruta a través de múltiples nodos, como las capas de una cebolla.*
@@ -400,6 +406,82 @@ Las direcciones IP públicas son asignadas por organizaciones globales (ICANN y 
 
 ***Encriptación***
 > *La encriptación es un término que se utiliza de manera intercambiable con el cifrado en muchos contextos. Ambos términos se refieren al mismo concepto de convertir información en un formato cifrado. En general, cuando se habla de comunicaciones seguras en la web, se hace referencia al uso de protocolos como SSL/TLS, que proporcionan tanto cifrado como autenticación.*
+
+---
+
+# ***Instalacion de TOR Browser***
+
+Descargar TOR desde [Pagina de TOR](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/es/thank-you/ "http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/es/thank-you/")
+luego de eso seguir los siguientes comandos
+
+1. ```bash
+   cd Descargas/
+   ```
+
+2. ```bash
+   ls
+   ```
+
+3. ```bash
+   tar -xf tor-browser-linux-x86_64-13.0.8.tar.xz
+   ```
+
+4. ```bash
+   cd tor-browser/
+   ```
+
+5. ```bash
+   ./start-tor-browser.desktop
+   ```
+
+***Esta comando sirve para instalar TOR***
+
+```bash
+sudo apt-get install tor torbrowser-launcher
+```
+
+---
+
+# ***Red Privada Virtual por sus siglas en inglés VPN - (Virtual Private Network)***
+
+> *Una VPN, o Red Privada Virtual por sus siglas en inglés (Virtual Private Network), es una tecnología que permite establecer una conexión segura y cifrada entre dos puntos a través de una red pública, como Internet. La finalidad principal de una VPN es proporcionar privacidad y seguridad a la información que se transmite a través de la red.*
+
+**Conceptos clave relacionados con las VPN:**
+
+1. ***Cifrado***
+
+   1. > *Las VPN utilizan protocolos de cifrado para proteger los datos que se transmiten a través de la red. Esto significa que incluso si alguien logra interceptar la información, no podrá entenderla sin la clave de descifrado.*
+
+2. ***Túneles***
+
+   1. > *Una VPN establece un "túnel" seguro entre el dispositivo del usuario y el servidor VPN. Todo el tráfico de datos que fluye a través de este túnel está protegido por el cifrado, lo que hace que sea difícil para terceros acceder a la información transmitida.*
+
+3. ***Privacidad y Anonimato:***
+
+   1. > *Al usar una VPN, la dirección IP del usuario se oculta y se reemplaza por la dirección IP del servidor VPN. Esto ayuda a preservar la privacidad del usuario y dificulta el rastreo de la actividad en línea hasta su ubicación real.*
+
+4. ***Evitar la Censura y Restricciones Geográficas:***
+
+   1. > *Al cambiar la ubicación virtual a través de la conexión a un servidor VPN en otro país, los usuarios pueden eludir restricciones geográficas y acceder a contenido que de otra manera estaría bloqueado.*
+
+5. ***Tipos de VPN***
+
+   1. **VPN de Acceso Remoto:**
+      1. > *Este tipo de VPN permite que un usuario individual se conecte de forma segura a una red privada desde una ubicación remota. Los empleados que trabajan desde casa o mientras están de viaje suelen utilizar este tipo de VPN para acceder a recursos corporativos de manera segura.*
+  
+   2. **VPN de Sitio a Sitio**
+      1. > *También conocida como VPN de red a red, esta variante se utiliza para conectar redes completas entre sí. Es común en entornos empresariales donde existen múltiples sucursales o ubicaciones, permitiendo una comunicación segura y eficiente entre ellas.*
+   3. **VPN de Acceso Extranet**
+      1. > *Similar a la VPN de acceso remoto, la VPN de acceso extranet se utiliza para proporcionar a usuarios externos, como socios comerciales o proveedores, acceso seguro a una red privada. Esto permite la colaboración segura entre diferentes organizaciones.*
+   4. **VPN SSL (Secure Socket Layer) / VPN basada en Navegador**
+      1. > *Estas VPNs permiten la conexión a través de un navegador web utilizando el protocolo SSL. No requieren la instalación de software adicional y son convenientes para situaciones en las que es necesario acceder a recursos de red de forma segura desde dispositivos sin software VPN dedicado.*
+   5. **VPN MPLS Conmutación multiprotocolo de etiquetas (Multiprotocol Label Switching)**
+      1. > *Este tipo de VPN se utiliza comúnmente en entornos empresariales para interconectar sucursales y sitios remotos. MPLS utiliza etiquetas para dirigir y priorizar el tráfico en la red, proporcionando un rendimiento eficiente y escalable.*
+
+   6. **VPN de Capa 2 y VPN de Capa 3**
+      1. > *Las VPN de Capa 2 operan en el nivel de enlace de datos, permitiendo la emulación de una conexión directa entre dos nodos en una red, mientras que las VPN de Capa 3 operan en el nivel de red y utilizan direcciones IP para enrutar el tráfico entre los nodos.*
+   7. **VPN de Acceso Total (Full-Tunnel) y VPN de Acceso Dividido (Split-Tunnel)**
+      1. > *En una VPN de acceso total, todo el tráfico de un dispositivo se enruta a través de la VPN, incluso el tráfico destinado a Internet. En una VPN de acceso dividido, solo el tráfico destinado a la red privada se enruta a través de la VPN, mientras que el tráfico a Internet se envía directamente.*
 
 <!-- Puedes ajustar la alineación de las celdas utilizando dos puntos (:) dentro de las barras verticales. Por ejemplo, |:--|:--:|--:| alinea las celdas a la izquierda, al centro y a la derecha respectivamente. -->
 
