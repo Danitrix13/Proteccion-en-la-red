@@ -55,7 +55,7 @@
 1. **Desactivar WPS (Wi-Fi Protected Setup)**
    1. > *WPS significa (Configuración Wi-Fi protegida, en español). es un estándar diseñado para simplificar la configuración segura de redes Wi-Fi en hogares y pequeñas empresas. Facilita la conexión de dispositivos sin ingresar manualmente la contraseña, utilizando métodos como PIN o botones físicos en el enrutador y el dispositivo. Sin embargo, WPS ha demostrado ser vulnerable a ataques de seguridad. En algunos dispositivos Xiaomi con Android 9.0 o versiones posteriores, es posible que el botón físico asociado con WPS haya sido eliminado. Dado que WPS puede representar riesgos de seguridad, algunos expertos recomiendan desactivarlo para mejorar la seguridad de la red Wi-Fi [Mas informacion]("")*
 
-   2. ![img Router Configuracion #2]("")
+   2. ![img Router Configuracion #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true")
 
 2. **Ocultar Nombre de Red (SSID) y Aislar un Access Point (AP)**
     1. > *SSID son las siglas de "Service Set Identifier" (Identificador de Conjunto de Servicios, en español). Un SSID es un nombre único que identifica a una red inalámbrica (Wi-Fi). Cada red Wi-Fi tiene un SSID único, y los dispositivos inalámbricos utilizan este nombre para conectarse a la red deseada.*
@@ -89,7 +89,7 @@
        4. **Aislamiento del AP**
           1. > *Puede activarse la función de aislamiento del Access Point (AP) para impedir la comunicación directa entre los dispositivos conectados a la red de invitados. Esto mejora la seguridad y la privacidad entre los usuarios temporales.*
 
-    2. ![img Router Configuracion #4]("")
+    2. ![img Router Configuracion #4](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion4.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion4.png?raw=true")
 
 4. **Crear una red de invitados privada**
    1. > Es el mismo procedimiento que crear una red de invitados publica exceptuando que ocultamo el SSID osea el nombre de la red*
@@ -97,4 +97,4 @@
 5. **Control de acceso por filtros MAC**
    1. > *El control de acceso por filtros MAC (Media Access Control) es una función de seguridad utilizada en redes para limitar el acceso a la red inalámbrica a dispositivos específicos. Cada dispositivo con capacidad de red, como computadoras, teléfonos inteligentes o impresoras, tiene una dirección MAC única asignada a su tarjeta de red. El control de acceso por filtros MAC aprovecha estas direcciones MAC para permitir o denegar la conexión de dispositivos a una red.*
 
-   2. ![img Router Configuracion #4]("")
+   2. ![img Router Configuracion #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true")
