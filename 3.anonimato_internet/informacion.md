@@ -267,14 +267,38 @@ ___
         ```
 
     2. ```bash
+        ip a show
+        ```
+
+    3. ```bash
+        ip address
+        ```
+
+    4. ```bash
+        ip address show
+        ```
+
+    5. ```bash
+        ip addr
+        ```
+
+    6. ```bash
         ip addr show
         ```
 
 2. *Comando para obtener ip privada de una interfaz especifica en ubuntu remplaza **enp0s3** por la interfaz que quieres monitorear*
 
-   ```bash
-   ip addr show <enp0s3>
-   ```
+   1. ```bash
+      ip addr show <enp0s3>
+      ```
+
+   2. ```bash
+      ip address show <enp0s3>
+      ```
+
+   3. ```bash
+      ip a show <enp0s3>
+      ```
 
 3. **En windows abrimos el cmd con <kbd>Windows</kbd>+<kbd>r</kbd> escribimos cmd**
 
