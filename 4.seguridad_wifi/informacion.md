@@ -98,3 +98,65 @@
    1. > *El control de acceso por filtros MAC (Media Access Control) es una función de seguridad utilizada en redes para limitar el acceso a la red inalámbrica a dispositivos específicos. Cada dispositivo con capacidad de red, como computadoras, teléfonos inteligentes o impresoras, tiene una dirección MAC única asignada a su tarjeta de red. El control de acceso por filtros MAC aprovecha estas direcciones MAC para permitir o denegar la conexión de dispositivos a una red.*
 
    2. ![img Router Configuracion #5](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion5.png?raw=true")
+
+6. **Control parental**
+   1. > *Esta opcion te permite personalizar el tiempo en el que un dispositivo de nuestra red local puede estar conectado,que dia puede acceder al red, tambien hay una opcion la cual podemos bloquear para que no visite ciertas paginas entre otras cosas.*
+
+   2. ![img Router Configuracion #6]("")
+
+7. **Cambiar la contraseña**
+   1. > *Podemos cambiar la contraseña del router desde la interfaz*
+
+   2. ![img Router Configuracion #7]("")
+
+8. *Cifrados*
+   1. > *Existen muchos protocolo de seguridad*
+      1. |**Algoritmo**|**Traduccion**|**Caracteristicas**|**Concepto**|
+         |:---:|:---:|:-:|:-:|
+         |*WEP (Wired Equivalent Privacy)*|*(Privacidad Equivalente a la de una Red Cableada)*|*Primer cifrado clave de 64 y 128 bits, cifrado RC34*|*es un protocolo de seguridad para redes inalámbricas que fue diseñado para proporcionar un nivel de seguridad similar al de las redes cableadas convencionales. Sin embargo, WEP ha quedado obsoleto y se considera inseguro debido a vulnerabilidades significativas.*|
+         |*WPA (Wi-Fi Protected Access) y WPA2*|*Acceso Wi-Fi protegido*|*Clave de cifrado 128 bits, PSK, WPA -> TKIP(RC34), WPA -> (AES),Enterprise*|***WPA** fue introducido como una mejora de seguridad sobre el protocolo WEP (Wired Equivalent Privacy), que tenía importantes vulnerabilidades. WPA mejoró significativamente la seguridad mediante la implementación de un cifrado más fuerte y la introducción de funciones como TKIP (Temporal Key Integrity Protocol) para reforzar la seguridad de las claves de cifrado.**WPA2 (Wi-Fi Protected Access 2):** WPA2 es la evolución natural de WPA y representa un estándar de seguridad más avanzado. Fue introducido para abordar algunas debilidades potenciales en WPA y ofrece un cifrado más robusto mediante el uso del protocolo AES (Advanced Encryption Standard) en lugar de TKIP. WPA2 es actualmente el estándar de seguridad más ampliamente utilizado en las redes inalámbricas y se considera mucho más seguro que su predecesor*|
+         |*WPA3*|*Acceso Wi-Fi protegido*|*Clave de 128 bits y 192 bits, mejora el compartir claves, Downgrade*|*WPA3 (Wi-Fi Protected Access 3) es la última iteración del protocolo de seguridad para redes inalámbricas. WPA3 fue diseñado para abordar las debilidades de seguridad conocidas en versiones anteriores como WPA y WPA2.*|
+
+      2. **Conceptos importantes**
+         1. **RC4 Rivest Cipher 4 (Cifrado Rivest 4)**
+            1. *Flujo de Cifrado: RC4 es un cifrado de flujo, lo que significa que cifra los datos en tiempo real mientras se transmiten o procesan. Funciona generando una secuencia de claves de cifrado pseudoaleatorias (flujo de bits) y combinándolas con los datos originales.*
+
+            2. Problemas de Seguridad: A lo largo de los años, se han descubierto diversas vulnerabilidades en el diseño y la implementación de RC4. Estos problemas de seguridad han llevado a que se desaconseje su uso en protocolos criptográficos modernos.
+
+            3. *Uso en WEP y WPA: RC4 fue utilizado inicialmente en el protocolo de seguridad WEP (Wired Equivalent Privacy) para proteger las comunicaciones en redes inalámbricas. Sin embargo, WEP resultó ser vulnerable y fue reemplazado por protocolos más seguros como WPA y WPA2.*
+            4. *Ataques WEP y RC4: En el contexto de WEP, se descubrieron ataques específicos, como el ataque Fluhrer-Mantin-Shamir (FMS), que explotaban debilidades en la implementación de RC4. Esto contribuyó al declive de la popularidad de WEP y RC4 en entornos de redes inalámbricas.*
+
+         2. **PSK**
+            1. *PSK significa "Pre-Shared Key" en inglés, y su traducción al español es "Clave Precompartida"*
+
+            2. *La idea básica es que tanto el punto de acceso como los dispositivos clientes comparten una clave secreta común, la cual se utiliza para autenticar y cifrar las comunicaciones entre ellos. Esta clave precompartida es ingresada manualmente en los dispositivos clientes y en el punto de acceso. Por lo general, se presenta como una contraseña o clave de acceso al conectarse a la red inalámbrica.*
+
+         3. **Enterprise**
+            1. *Enterprise emplea la autenticación basada en un servidor RADIUS (Remote Authentication Dial-In User Service) Servicio de Usuario de Marcación de Autenticación Remota.*
+
+            2. ***EAP** (Extensible Authentication Protocol): WPA2-Enterprise utiliza EAP, que es un marco de autenticación extensible, para establecer la conexión segura entre dispositivos y puntos de acceso.*
+
+            3. **Servidor RADIUS:** En lugar de depender de una clave precompartida, WPA2-Enterprise utiliza un servidor RADIUS para gestionar y autenticar usuarios. El servidor RADIUS almacena la información de autenticación y verifica las credenciales de los usuarios que intentan conectarse a la red.
+         4. **TKIP -> WPA**
+            1. *TKIP significa "Temporal Key Integrity Protocol" en inglés, y su traducción al español sería "Protocolo Temporal de Integridad de Clave".*
+
+            2. *Dinamismo de las Claves: TKIP utiliza claves temporales y dinámicas en lugar de claves estáticas, como las utilizadas en WEP. Esto significa que las claves cambian con el tiempo, lo que hace más difícil para los atacantes predecir y descifrar las comunicaciones.*
+
+            3. *Integridad del Paquete: TKIP proporciona integridad de paquetes, lo que significa que puede detectar si los datos han sido manipulados durante la transmisión. Si se detecta algún intento de alteración, el paquete se descarta, mejorando la seguridad de las comunicaciones.*
+
+            4. *Utilización de un Vector de Inicialización (IV) Más Largo: TKIP utiliza un vector de inicialización más largo que WEP, lo que reduce las posibilidades de ciertos tipos de ataques criptoanalíticos.*
+
+         5. **AES -> WPA2**
+            1. *AES significa "Advanced Encryption Standard" en inglés y su traducción al español sería "Estándar de Cifrado Avanzado". AES es un algoritmo de cifrado simétrico*
+
+            2. *Bloques y Claves: AES opera en bloques de datos y utiliza claves de cifrado simétrico. Los tamaños de bloque y las longitudes de clave pueden ser de 128, 192 o 256 bits.*
+
+            3. *Estructura Ronda: AES utiliza un diseño de rondas para realizar la cifra. La cantidad de rondas depende de la longitud de la clave: 10 rondas para claves de 128 bits, 12 rondas para claves de 192 bits y 14 rondas para claves de 256 bits.*
+
+            4. *Confidencialidad y Seguridad: AES es altamente resistente a diversos ataques criptoanalíticos y se considera seguro para proteger información clasificada a nivel gubernamental.*
+
+            5. *Eficiencia en Hardware y Software: AES ha sido diseñado para ser eficiente tanto en implementaciones de hardware como en software, lo que facilita su implementación en una variedad de dispositivos.*
+
+            6. *Amplia Adopción: AES es ampliamente utilizado y es el estándar de cifrado preferido en una variedad de aplicaciones, desde la seguridad de Wi-Fi (WPA2 y WPA3) hasta el cifrado de datos en sistemas operativos y aplicaciones.*
+
+         6. *El término "downgrade" en el contexto de redes inalámbricas se refiere a cambiar la seguridad de una red de un protocolo más seguro a uno menos seguro.*
