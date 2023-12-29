@@ -48,7 +48,7 @@
 
 **Despues de colocar las credenciales correctamente se nos abrira este pagina**
 
-![*img Router Configuracion #1*]("")
+![*img Router Configuracion #1*](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion1.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion1.png?raw=true")
 
 > *Una vez dentro podemos configurar muchas cosas*
 
@@ -75,7 +75,7 @@
           4. **Control de tráfico y rendimiento**
                1. > *El aislamiento del AP puede ayudar a optimizar el rendimiento de la red al limitar la cantidad de tráfico entre dispositivos. Esto es útil en entornos donde se busca un mejor control del tráfico para mejorar la eficiencia y la calidad de la conexión.*
 
-    3. ![img Router Configuracion #3]("")
+    3. ![img Router Configuracion #3](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion3.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion3.png?raw=true")
 
 3. **Crear una red de inviatdos publica**
     1. > *Crear una red de invitados pública se refiere a configurar una red inalámbrica específicamente diseñada para ofrecer acceso limitado y temporal a usuarios no autorizados o visitantes.*
