@@ -102,12 +102,12 @@
 6. **Control parental**
    1. > *Esta opcion te permite personalizar el tiempo en el que un dispositivo de nuestra red local puede estar conectado,que dia puede acceder al red, tambien hay una opcion la cual podemos bloquear para que no visite ciertas paginas entre otras cosas.*
 
-   2. ![img Router Configuracion #6]("")
+   2. ![img Router Configuracion #6](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion6.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion6.png?raw=true")
 
 7. **Cambiar la contraseña**
    1. > *Podemos cambiar la contraseña del router desde la interfaz*
 
-   2. ![img Router Configuracion #7]("")
+   2. ![img Router Configuracion #7](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion7.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion7.png?raw=true")
 
 8. *Cifrados*
    1. > *Existen muchos protocolo de seguridad*
