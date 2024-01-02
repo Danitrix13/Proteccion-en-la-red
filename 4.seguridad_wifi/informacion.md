@@ -6,6 +6,7 @@
 - [***Router-Configuracion***](#router-configuracion)
 
 ---
+
 # **MAC (Media Access Control) Control de acceso a los medios**
 
 ![img](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/10/que-es-direccion-mac-tu-ordenador-movil-que-sirve.jpg?itok=R6pZrxf5 "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/10/que-es-direccion-mac-tu-ordenador-movil-que-sirve.jpg?itok=R6pZrxf5")
@@ -15,6 +16,7 @@
 > *Las direcciones MAC se representan comúnmente como una serie de caracteres hexadecimales.*
 
 ---
+
 # ***Router-Configuracion***
 
 **La puerta de enlace predeterminada, también conocida como gateway, es el dispositivo en una red que actúa como punto de salida para el tráfico destinado a redes fuera de la red local.**
@@ -43,7 +45,7 @@
             ipconfig
             ```
 
-> **Pegamos la direccion ip en el navegador en mi caso es <kbd>192.168.1.1</kbd>** nos va a pedir las credenciales como nombre y contraseña mas informacion 
+> **Pegamos la direccion ip en el navegador en mi caso es <kbd>192.168.1.1</kbd>** nos va a pedir las credenciales como nombre y contraseña mas informacion
 [*KAON Media Model CG220*](https://portforward.com/kaon-media/passwords/ "https://portforward.com/kaon-media/passwords/").
 
 **Despues de colocar las credenciales correctamente se nos abrira este pagina**
@@ -53,9 +55,35 @@
 > *Una vez dentro podemos configurar muchas cosas*
 
 1. **Desactivar WPS (Wi-Fi Protected Setup)**
-   1. > *WPS significa (Configuración Wi-Fi protegida, en español). es un estándar diseñado para simplificar la configuración segura de redes Wi-Fi en hogares y pequeñas empresas. Facilita la conexión de dispositivos sin ingresar manualmente la contraseña, utilizando métodos como PIN o botones físicos en el enrutador y el dispositivo. Sin embargo, WPS ha demostrado ser vulnerable a ataques de seguridad. En algunos dispositivos Xiaomi con Android 9.0 o versiones posteriores, es posible que el botón físico asociado con WPS haya sido eliminado. Dado que WPS puede representar riesgos de seguridad, algunos expertos recomiendan desactivarlo para mejorar la seguridad de la red Wi-Fi [Mas informacion]("")*
+   1. > *WPS significa (Configuración Wi-Fi protegida, en español). es un estándar diseñado para simplificar la configuración segura de redes Wi-Fi en hogares y pequeñas empresas. Facilita la conexión de dispositivos sin ingresar manualmente la contraseña, utilizando métodos como PIN o botones físicos en el enrutador y el dispositivo. Sin embargo, WPS ha demostrado ser vulnerable a ataques de seguridad. En algunos dispositivos Xiaomi con Android 9.0 o versiones posteriores, es posible que el botón físico asociado con WPS haya sido eliminado. Dado que WPS puede representar riesgos de seguridad, algunos expertos recomiendan desactivarlo para mejorar la seguridad de la red Wi-Fi [Mas informacion](https://www.elgrupoinformatico.com/tutoriales/movil-xiaomi-tiene-wps-t76066.html "https://www.elgrupoinformatico.com/tutoriales/movil-xiaomi-tiene-wps-t76066.html")*
 
-   2. ![img Router Configuracion #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true")
+   2. **NFC NFC (Near Field Communication): Comunicación de Campo Cercano**
+
+      - **Descripción:** NFC es una tecnología de comunicación inalámbrica de corto alcance que permite la transferencia de datos entre dispositivos cercanos.
+
+      - **Métodos:**
+        - **Conexión Rápida:** Al acercar dos dispositivos NFC, se establece una conexión rápida, que podría incluir la configuración de redes Wi-Fi si es compatible.
+
+   3. **USB (Universal Serial Bus): Bus Universal en Serie**
+
+      - **Descripción:** USB no es específicamente un método de configuración de red, pero algunos dispositivos permiten la conexión USB para la configuración de redes o la transferencia de datos.
+
+      - **Métodos:**
+        - **Configuración por Cable:** Al conectar un dispositivo a través de un cable USB, puede ser posible configurar la conexión a una red.
+
+   4. **PBC (Push Button Configuration): Configuración por Botón de Pulsación**
+
+      - **Descripción:** Este método es comúnmente asociado con WPS, como se mencionó anteriormente. Implica presionar un botón en el enrutador y otro en el dispositivo que se está conectando para establecer una conexión segura sin necesidad de contraseña.
+
+      - **Método Específico de WPS:** En el contexto de WPS, PBC es uno de los métodos para realizar la configuración rápida y segura de dispositivos en una red Wi-Fi.
+
+   5. **PIN (Personal Identification Number): Número de Identificación Personal**
+
+      - **Descripción:** WPS también puede utilizar un método de configuración basado en PIN, que implica el ingreso de un código PIN específico.
+
+      - **Método de Configuración con PIN:** Al ingresar un código PIN en el dispositivo que se está conectando, se establece la conexión de forma segura.
+
+   6. ![img Router Configuracion #2](https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true "https://github.com/Danitrix13/Proteccion-en-la-red/blob/master/img/PNG/img-Configuracion-Router/Router-Configuracion2.png?raw=true")
 
 2. **Ocultar Nombre de Red (SSID) y Aislar un Access Point (AP)**
     1. > *SSID son las siglas de "Service Set Identifier" (Identificador de Conjunto de Servicios, en español). Un SSID es un nombre único que identifica a una red inalámbrica (Wi-Fi). Cada red Wi-Fi tiene un SSID único, y los dispositivos inalámbricos utilizan este nombre para conectarse a la red deseada.*
